@@ -53,13 +53,13 @@ Solana-based badges are either
 
 
 **Claiming Badges (Unclaimed Tokens Only)**  
-   - User logs into the User Web App and views unclaimed blockchain-backed badges.
-   - User Web App requests pending unclaimed tokens from the claim service.
-   - Claim service queries the database for pending badge notifications and returns selectable notifications to the User Web App.
-   - User selects one or more badges and provides wallet address(es) (one wallet can be used for multiple badges, or separate wallets for each badge), then submits the claim request.
-   - User Web App sends the claim selection (URI, token ID, wallet) to the claim service.
-   - Claim service updates the database with claim intent details (URI, token ID, wallet, timestamp).
-   - Claim service sends claim request payload (URI, token ID, wallet) to admin webhook.
+   - User logs into the User Web App.
+   - If the user has unclaimed blockchain-backed badges and no wallet address on file, the User Web App notifies them that they have unclaimed badges and guides them to create a wallet (if needed) and set a primary wallet address in their user profile.
+   - Once a wallet address is set in the user profile, the User Web App displays the user's unclaimed blockchain-backed badges.
+   - User selects one or more badges and submits the claim request (no per-claim wallet entry; the profile wallet is used).
+   - User Web App sends the claim selection (URI, token ID) together with the user's profile `wallet_address` to the claim service.
+   - Claim service updates the database with claim intent details (URI, token ID, wallet_address, timestamp).
+   - Claim service sends claim request payload (URI, token ID, wallet_address) to the admin webhook.
    - User waits for admin to process the claim request.
    - User receives claim confirmation email once the badge is transferred to their wallet.
 
@@ -99,14 +99,21 @@ sequenceDiagram
 
         Note over Claim,DB: Claim service queries DB for unclaimed tokens<br/>and associated recipient metadata
 
-        User->>UserApp: Login & view claim notifications
-        UserApp->>Claim: Request pending unclaimed tokens
+        User->>UserApp: Login
+        UserApp->>DB: Check for unclaimed badges and wallet on file
+        DB-->>UserApp: Return unclaimed badges + wallet_on_file flag
+        UserApp-->>User: If no wallet on file, prompt to add wallet address in profile
+        User->>UserApp: Set or confirm profile wallet address
+        UserApp->>DB: Persist `wallet_address` on user
+
+        User->>UserApp: View claim notifications
+        UserApp->>Claim: Request pending unclaimed tokens (for user with wallet on file)
         Claim->>DB: Query pending badge notifications
         Claim-->>UserApp: Return selectable notifications
         User->>UserApp: Select badges
-        UserApp->>Claim: Submit claim selection (URI, token ID, wallet) with wallet address(es)
+        UserApp->>Claim: Submit claim selection (URI, token ID, wallet_from_profile)
         Claim->>DB: Update claim intent, log timestamp
-        Claim->>Hook: Send claim request payload (URI, token ID, wallet)
+        Claim->>Hook: Send claim request payload (URI, token ID, wallet_from_profile)
         Hook-->>Admin: Notify admin via webhook
         Admin->>AdminUI: Initiate transfer (via Admin UI with admin wallet)
         AdminUI->>Admin: Request transaction signing (from contract to wallet)
@@ -231,4 +238,4 @@ erDiagram
     claim_intents ||--o{ badge_logs : "logged"
 ```
 
-**Note on `wallet_address` in `users` table**: The `wallet_address` field in the `users` table is used to support batch minting operations by admins. When an admin executes a batch-mint action, it would be impossible to manually input all wallet addresses for each recipient. Therefore, users who have a wallet address should set it in their profile page. If a user has not set their wallet address, their badge tokens are automatically minted to the token contract (vault functionality) instead of directly to their wallet, requiring them to claim the badge later.
+**Note on `wallet_address` in `users` table**: The `wallet_address` field in the `users` table is used both to support batch minting operations by admins and to drive the user-initiated claim flow. When an admin executes a batch-mint action, it would be impossible to manually input all wallet addresses for each recipient. Therefore, users who have a wallet address should set it in their profile page. If a user has not set their wallet address, their badge tokens are automatically minted to the token contract (vault functionality) instead of directly to their wallet, requiring them to claim the badge later. When a user later claims an unclaimed badge, the system uses the `wallet_address` stored on the user profile (rather than letting the user enter multiple arbitrary wallets per claim).
