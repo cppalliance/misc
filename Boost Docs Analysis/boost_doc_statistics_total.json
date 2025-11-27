@@ -1,0 +1,1302 @@
+{
+  "accumulators": {
+    "qbk": {
+      "file count": 1,
+      "line count": 4180
+    }
+  },
+  "algorithm": {
+    "qbk": {
+      "file count": 22,
+      "line count": 2200
+    },
+    "xml": {
+      "file count": 10,
+      "line count": 1845
+    },
+    "html": {
+      "file count": 3,
+      "line count": 691
+    }
+  },
+  "align": {
+    "qbk": {
+      "file count": 1,
+      "line count": 649
+    }
+  },
+  "any": {
+    "qbk": {
+      "file count": 1,
+      "line count": 278
+    }
+  },
+  "array": {
+    "adoc": {
+      "file count": 7,
+      "line count": 624
+    }
+  },
+  "asio": {
+    "qbk": {
+      "file count": 130,
+      "line count": 197570
+    },
+    "dox": {
+      "file count": 2,
+      "line count": 756
+    },
+    "xml": {
+      "file count": 2,
+      "line count": 818
+    }
+  },
+  "assert": {
+    "adoc": {
+      "file count": 5,
+      "line count": 457
+    },
+    "html": {
+      "file count": 1,
+      "line count": 6
+    }
+  },
+  "assign": {
+    "html": {
+      "file count": 4,
+      "line count": 1922
+    }
+  },
+  "atomic": {
+    "qbk": {
+      "file count": 4,
+      "line count": 2810
+    }
+  },
+  "beast": {
+    "qbk": {
+      "file count": 59,
+      "line count": 9643
+    },
+    "xml": {
+      "file count": 2,
+      "line count": 434
+    }
+  },
+  "bimap": {
+    "html": {
+      "file count": 36,
+      "line count": 15440
+    },
+    "qbk": {
+      "file count": 22,
+      "line count": 8162
+    }
+  },
+  "bind": {
+    "qbk": {
+      "file count": 15,
+      "line count": 1553
+    },
+    "html": {
+      "file count": 2,
+      "line count": 2104
+    }
+  },
+  "bloom": {
+    "adoc": {
+      "file count": 25,
+      "line count": 5668
+    },
+    "html": {
+      "file count": 1,
+      "line count": 19
+    }
+  },
+  "callable_traits": {
+    "qbk": {
+      "file count": 1,
+      "line count": 532
+    },
+    "xml": {
+      "file count": 1,
+      "line count": 50
+    }
+  },
+  "charconv": {
+    "adoc": {
+      "file count": 14,
+      "line count": 1206
+    },
+    "html": {
+      "file count": 1,
+      "line count": 6
+    }
+  },
+  "chrono": {
+    "html": {
+      "file count": 1,
+      "line count": 4040
+    },
+    "qbk": {
+      "file count": 1,
+      "line count": 7816
+    }
+  },
+  "circular_buffer": {
+    "qbk": {
+      "file count": 1,
+      "line count": 626
+    }
+  },
+  "cobalt": {
+    "adoc": {
+      "file count": 80,
+      "line count": 4856
+    }
+  },
+  "compat": {
+    "adoc": {
+      "file count": 17,
+      "line count": 1546
+    },
+    "html": {
+      "file count": 1,
+      "line count": 6
+    }
+  },
+  "compute": {
+    "qbk": {
+      "file count": 12,
+      "line count": 1153
+    }
+  },
+  "concept_check": {
+    "xml": {
+      "file count": 12,
+      "line count": 1917
+    }
+  },
+  "config": {
+    "qbk": {
+      "file count": 8,
+      "line count": 2962
+    },
+    "html": {
+      "file count": 7,
+      "line count": 9357
+    }
+  },
+  "container": {
+    "html": {
+      "file count": 1,
+      "line count": 1505
+    },
+    "qbk": {
+      "file count": 1,
+      "line count": 2046
+    }
+  },
+  "container_hash": {
+    "adoc": {
+      "file count": 13,
+      "line count": 1849
+    }
+  },
+  "context": {
+    "html": {
+      "file count": 32,
+      "line count": 7490
+    },
+    "qbk": {
+      "file count": 12,
+      "line count": 2232
+    },
+    "xml": {
+      "file count": 1,
+      "line count": 3913
+    }
+  },
+  "contract": {
+    "qbk": {
+      "file count": 12,
+      "line count": 3847
+    }
+  },
+  "conversion": {
+    "qbk": {
+      "file count": 1,
+      "line count": 215
+    }
+  },
+  "convert": {
+    "html": {
+      "file count": 78,
+      "line count": 7976
+    },
+    "qbk": {
+      "file count": 22,
+      "line count": 1170
+    }
+  },
+  "core": {
+    "qbk": {
+      "file count": 49,
+      "line count": 6529
+    }
+  },
+  "coroutine": {
+    "qbk": {
+      "file count": 12,
+      "line count": 2623
+    }
+  },
+  "coroutine2": {
+    "qbk": {
+      "file count": 10,
+      "line count": 1964
+    }
+  },
+  "crc": {
+    "qbk": {
+      "file count": 1,
+      "line count": 503
+    }
+  },
+  "date_time": {
+    "html": {
+      "file count": 1,
+      "line count": 13
+    }
+  },
+  "describe": {
+    "adoc": {
+      "file count": 9,
+      "line count": 1463
+    },
+    "html": {
+      "file count": 1,
+      "line count": 6
+    }
+  },
+  "detail": {
+    "html": {
+      "file count": 1,
+      "line count": 56
+    },
+    "qbk": {
+      "file count": 1,
+      "line count": 19
+    }
+  },
+  "dll": {
+    "qbk": {
+      "file count": 12,
+      "line count": 1164
+    }
+  },
+  "endian": {
+    "adoc": {
+      "file count": 8,
+      "line count": 2591
+    },
+    "html": {
+      "file count": 1,
+      "line count": 7
+    }
+  },
+  "exception": {
+    "html": {
+      "file count": 68,
+      "line count": 4710
+    }
+  },
+  "fiber": {
+    "html": {
+      "file count": 62,
+      "line count": 17370
+    },
+    "qbk": {
+      "file count": 31,
+      "line count": 7763
+    },
+    "xml": {
+      "file count": 1,
+      "line count": 16749
+    }
+  },
+  "filesystem": {
+    "html": {
+      "file count": 11,
+      "line count": 8352
+    },
+    "htm": {
+      "file count": 4,
+      "line count": 1242
+    }
+  },
+  "flyweight": {
+    "html": {
+      "file count": 22,
+      "line count": 6577
+    }
+  },
+  "foreach": {
+    "qbk": {
+      "file count": 1,
+      "line count": 537
+    }
+  },
+  "format": {
+    "html": {
+      "file count": 2,
+      "line count": 1386
+    }
+  },
+  "function": {
+    "xml": {
+      "file count": 7,
+      "line count": 2056
+    }
+  },
+  "function_types": {
+    "html": {
+      "file count": 12,
+      "line count": 2025
+    },
+    "qbk": {
+      "file count": 1,
+      "line count": 1142
+    }
+  },
+  "functional": {
+    "html": {
+      "file count": 11,
+      "line count": 908
+    },
+    "qbk": {
+      "file count": 3,
+      "line count": 919
+    }
+  },
+  "fusion": {
+    "qbk": {
+      "file count": 19,
+      "line count": 14207
+    },
+    "html": {
+      "file count": 1,
+      "line count": 288
+    }
+  },
+  "geometry": {
+    "qbk": {
+      "file count": 176,
+      "line count": 8463
+    },
+    "html": {
+      "file count": 3,
+      "line count": 203
+    },
+    "xml": {
+      "file count": 2,
+      "line count": 1631
+    }
+  },
+  "gil": {
+    "rst": {
+      "file count": 48,
+      "line count": 5971
+    },
+    "html": {
+      "file count": 4,
+      "line count": 205
+    },
+    "dox": {
+      "file count": 1,
+      "line count": 281
+    },
+    "md": {
+      "file count": 1,
+      "line count": 34
+    }
+  },
+  "graph": {
+    "html": {
+      "file count": 175,
+      "line count": 38808
+    },
+    "htm": {
+      "file count": 5,
+      "line count": 615
+    },
+    "rst": {
+      "file count": 3,
+      "line count": 671
+    }
+  },
+  "graph_parallel": {
+    "html": {
+      "file count": 37,
+      "line count": 7085
+    },
+    "rst": {
+      "file count": 37,
+      "line count": 7268
+    }
+  },
+  "hana": {
+    "html": {
+      "file count": 2,
+      "line count": 97
+    },
+    "xml": {
+      "file count": 1,
+      "line count": 225
+    }
+  },
+  "hash2": {
+    "adoc": {
+      "file count": 30,
+      "line count": 4100
+    },
+    "html": {
+      "file count": 1,
+      "line count": 6
+    }
+  },
+  "heap": {
+    "qbk": {
+      "file count": 1,
+      "line count": 422
+    }
+  },
+  "histogram": {
+    "qbk": {
+      "file count": 14,
+      "line count": 2024
+    },
+    "md": {
+      "file count": 1,
+      "line count": 9
+    }
+  },
+  "hof": {
+    "html": {
+      "file count": 1,
+      "line count": 19
+    },
+    "rst": {
+      "file count": 1,
+      "line count": 23
+    }
+  },
+  "icl": {
+    "html": {
+      "file count": 255,
+      "line count": 42116
+    },
+    "qbk": {
+      "file count": 30,
+      "line count": 6348
+    }
+  },
+  "integer": {
+    "qbk": {
+      "file count": 4,
+      "line count": 1117
+    }
+  },
+  "interprocess": {
+    "qbk": {
+      "file count": 1,
+      "line count": 7714
+    }
+  },
+  "intrusive": {
+    "qbk": {
+      "file count": 1,
+      "line count": 4369
+    }
+  },
+  "io": {
+    "adoc": {
+      "file count": 6,
+      "line count": 796
+    },
+    "html": {
+      "file count": 1,
+      "line count": 5
+    }
+  },
+  "iostreams": {
+    "html": {
+      "file count": 112,
+      "line count": 19623
+    }
+  },
+  "iterator": {
+    "rst": {
+      "file count": 74,
+      "line count": 7059
+    },
+    "html": {
+      "file count": 27,
+      "line count": 9794
+    },
+    "qbk": {
+      "file count": 20,
+      "line count": 4720
+    },
+    "htm": {
+      "file count": 1,
+      "line count": 162
+    }
+  },
+  "json": {
+    "adoc": {
+      "file count": 32,
+      "line count": 3287
+    },
+    "html": {
+      "file count": 1,
+      "line count": 96
+    },
+    "md": {
+      "file count": 1,
+      "line count": 11
+    }
+  },
+  "lambda": {
+    "xml": {
+      "file count": 2,
+      "line count": 6908
+    },
+    "html": {
+      "file count": 1,
+      "line count": 12
+    }
+  },
+  "lambda2": {
+    "adoc": {
+      "file count": 5,
+      "line count": 560
+    },
+    "html": {
+      "file count": 1,
+      "line count": 6
+    }
+  },
+  "leaf": {
+    "adoc": {
+      "file count": 1,
+      "line count": 6041
+    },
+    "html": {
+      "file count": 1,
+      "line count": 12
+    },
+    "md": {
+      "file count": 1,
+      "line count": 538
+    }
+  },
+  "lexical_cast": {
+    "qbk": {
+      "file count": 1,
+      "line count": 810
+    }
+  },
+  "local_function": {
+    "html": {
+      "file count": 22,
+      "line count": 5795
+    },
+    "qbk": {
+      "file count": 12,
+      "line count": 1635
+    }
+  },
+  "locale": {
+    "html": {
+      "file count": 1,
+      "line count": 14
+    }
+  },
+  "lockfree": {
+    "qbk": {
+      "file count": 1,
+      "line count": 284
+    }
+  },
+  "log": {
+    "qbk": {
+      "file count": 16,
+      "line count": 5098
+    }
+  },
+  "math": {
+    "html": {
+      "file count": 499,
+      "line count": 176687
+    },
+    "mml": {
+      "file count": 349,
+      "line count": 25982
+    },
+    "qbk": {
+      "file count": 256,
+      "line count": 54958
+    }
+  },
+  "metaparse": {
+    "qbk": {
+      "file count": 206,
+      "line count": 17355
+    }
+  },
+  "move": {
+    "qbk": {
+      "file count": 1,
+      "line count": 1054
+    }
+  },
+  "mp11": {
+    "adoc": {
+      "file count": 21,
+      "line count": 5583
+    },
+    "html": {
+      "file count": 2,
+      "line count": 13
+    }
+  },
+  "mpi": {
+    "qbk": {
+      "file count": 12,
+      "line count": 2357
+    }
+  },
+  "mpl": {
+    "html": {
+      "file count": 266,
+      "line count": 28597
+    }
+  },
+  "mqtt5": {
+    "qbk": {
+      "file count": 33,
+      "line count": 2367
+    },
+    "xml": {
+      "file count": 2,
+      "line count": 155
+    }
+  },
+  "msm": {
+    "html": {
+      "file count": 47,
+      "line count": 3620
+    },
+    "htm": {
+      "file count": 1,
+      "line count": 14
+    }
+  },
+  "multi_array": {
+    "html": {
+      "file count": 6,
+      "line count": 3325
+    },
+    "xml": {
+      "file count": 6,
+      "line count": 3459
+    }
+  },
+  "multi_index": {
+    "html": {
+      "file count": 24,
+      "line count": 17423
+    }
+  },
+  "multiprecision": {
+    "html": {
+      "file count": 94,
+      "line count": 46443
+    },
+    "qbk": {
+      "file count": 73,
+      "line count": 8551
+    },
+    "mml": {
+      "file count": 3,
+      "line count": 359
+    }
+  },
+  "mysql": {
+    "qbk": {
+      "file count": 40,
+      "line count": 6710
+    },
+    "md": {
+      "file count": 1,
+      "line count": 49
+    },
+    "xml": {
+      "file count": 1,
+      "line count": 155
+    }
+  },
+  "nowide": {
+    "dox": {
+      "file count": 2,
+      "line count": 553
+    }
+  },
+  "numeric": {
+    "qbk": {
+      "file count": 47,
+      "line count": 6635
+    },
+    "html": {
+      "file count": 44,
+      "line count": 22720
+    },
+    "htm": {
+      "file count": 10,
+      "line count": 2961
+    }
+  },
+  "optional": {
+    "qbk": {
+      "file count": 24,
+      "line count": 3572
+    }
+  },
+  "outcome": {
+    "html": {
+      "file count": 528,
+      "line count": 26377
+    },
+    "md": {
+      "file count": 1,
+      "line count": 5
+    },
+    "xml": {
+      "file count": 1,
+      "line count": 2296
+    }
+  },
+  "parameter": {
+    "html": {
+      "file count": 2,
+      "line count": 9965
+    },
+    "rst": {
+      "file count": 2,
+      "line count": 10319
+    }
+  },
+  "parameter_python": {
+    "rst": {
+      "file count": 1,
+      "line count": 778
+    }
+  },
+  "parser": {
+    "qbk": {
+      "file count": 7,
+      "line count": 5651
+    },
+    "xml": {
+      "file count": 1,
+      "line count": 2145
+    }
+  },
+  "pfr": {
+    "qbk": {
+      "file count": 1,
+      "line count": 647
+    }
+  },
+  "phoenix": {
+    "html": {
+      "file count": 91,
+      "line count": 12807
+    },
+    "qbk": {
+      "file count": 43,
+      "line count": 5303
+    }
+  },
+  "poly_collection": {
+    "qbk": {
+      "file count": 4,
+      "line count": 3556
+    }
+  },
+  "polygon": {
+    "htm": {
+      "file count": 40,
+      "line count": 15640
+    }
+  },
+  "pool": {
+    "html": {
+      "file count": 49,
+      "line count": 8379
+    },
+    "qbk": {
+      "file count": 1,
+      "line count": 1207
+    }
+  },
+  "predef": {
+    "adoc": {
+      "file count": 3,
+      "line count": 1177
+    },
+    "html": {
+      "file count": 1,
+      "line count": 7782
+    }
+  },
+  "preprocessor": {
+    "html": {
+      "file count": 524,
+      "line count": 32490
+    }
+  },
+  "process": {
+    "adoc": {
+      "file count": 27,
+      "line count": 2176
+    }
+  },
+  "program_options": {
+    "xml": {
+      "file count": 8,
+      "line count": 2130
+    },
+    "dox": {
+      "file count": 5,
+      "line count": 379
+    },
+    "html": {
+      "file count": 1,
+      "line count": 14
+    }
+  },
+  "property_map": {
+    "html": {
+      "file count": 17,
+      "line count": 3039
+    },
+    "rst": {
+      "file count": 1,
+      "line count": 420
+    }
+  },
+  "property_tree": {
+    "qbk": {
+      "file count": 14,
+      "line count": 746
+    }
+  },
+  "proto": {
+    "xml": {
+      "file count": 64,
+      "line count": 17730
+    },
+    "qbk": {
+      "file count": 18,
+      "line count": 5656
+    }
+  },
+  "ptr_container": {
+    "html": {
+      "file count": 27,
+      "line count": 14727
+    },
+    "rst": {
+      "file count": 26,
+      "line count": 5385
+    },
+    "xml": {
+      "file count": 2,
+      "line count": 146
+    }
+  },
+  "python": {
+    "qbk": {
+      "file count": 80,
+      "line count": 10047
+    },
+    "rst": {
+      "file count": 15,
+      "line count": 2318
+    },
+    "html": {
+      "file count": 3,
+      "line count": 322
+    }
+  },
+  "qvm": {
+    "adoc": {
+      "file count": 1,
+      "line count": 5312
+    },
+    "html": {
+      "file count": 1,
+      "line count": 12
+    }
+  },
+  "random": {
+    "qbk": {
+      "file count": 14,
+      "line count": 1165
+    }
+  },
+  "range": {
+    "qbk": {
+      "file count": 117,
+      "line count": 7875
+    },
+    "rst": {
+      "file count": 1,
+      "line count": 232
+    }
+  },
+  "ratio": {
+    "qbk": {
+      "file count": 1,
+      "line count": 1443
+    }
+  },
+  "redis": {
+    "adoc": {
+      "file count": 11,
+      "line count": 1293
+    },
+    "md": {
+      "file count": 1,
+      "line count": 671
+    }
+  },
+  "regex": {
+    "html": {
+      "file count": 90,
+      "line count": 27160
+    },
+    "qbk": {
+      "file count": 53,
+      "line count": 9732
+    }
+  },
+  "safe_numerics": {
+    "html": {
+      "file count": 52,
+      "line count": 9329
+    },
+    "xml": {
+      "file count": 35,
+      "line count": 8554
+    }
+  },
+  "scope": {
+    "qbk": {
+      "file count": 4,
+      "line count": 2368
+    }
+  },
+  "scope_exit": {
+    "html": {
+      "file count": 16,
+      "line count": 2210
+    },
+    "qbk": {
+      "file count": 1,
+      "line count": 500
+    }
+  },
+  "serialization": {
+    "html": {
+      "file count": 42,
+      "line count": 9360
+    }
+  },
+  "signals2": {
+    "xml": {
+      "file count": 24,
+      "line count": 4328
+    }
+  },
+  "smart_ptr": {
+    "adoc": {
+      "file count": 25,
+      "line count": 6333
+    },
+    "html": {
+      "file count": 1,
+      "line count": 7
+    }
+  },
+  "sort": {
+    "html": {
+      "file count": 157,
+      "line count": 21429
+    },
+    "htm": {
+      "file count": 32,
+      "line count": 7567
+    },
+    "qbk": {
+      "file count": 18,
+      "line count": 2887
+    },
+    "xml": {
+      "file count": 7,
+      "line count": 759
+    }
+  },
+  "spirit": {
+    "qbk": {
+      "file count": 155,
+      "line count": 32112
+    },
+    "html": {
+      "file count": 86,
+      "line count": 15108
+    }
+  },
+  "stacktrace": {
+    "qbk": {
+      "file count": 1,
+      "line count": 464
+    }
+  },
+  "statechart": {
+    "html": {
+      "file count": 12,
+      "line count": 9178
+    }
+  },
+  "static_assert": {
+    "qbk": {
+      "file count": 1,
+      "line count": 243
+    }
+  },
+  "static_string": {
+    "xml": {
+      "file count": 2,
+      "line count": 30
+    },
+    "qbk": {
+      "file count": 1,
+      "line count": 139
+    }
+  },
+  "stl_interfaces": {
+    "qbk": {
+      "file count": 5,
+      "line count": 1698
+    }
+  },
+  "system": {
+    "adoc": {
+      "file count": 9,
+      "line count": 4655
+    },
+    "html": {
+      "file count": 1,
+      "line count": 6
+    }
+  },
+  "test": {
+    "qbk": {
+      "file count": 76,
+      "line count": 10084
+    },
+    "md": {
+      "file count": 1,
+      "line count": 71
+    }
+  },
+  "thread": {
+    "qbk": {
+      "file count": 30,
+      "line count": 18509
+    },
+    "html": {
+      "file count": 1,
+      "line count": 12
+    }
+  },
+  "throw_exception": {
+    "adoc": {
+      "file count": 5,
+      "line count": 459
+    },
+    "html": {
+      "file count": 1,
+      "line count": 9
+    }
+  },
+  "timer": {
+    "html": {
+      "file count": 3,
+      "line count": 1046
+    }
+  },
+  "tokenizer": {
+    "htm": {
+      "file count": 8,
+      "line count": 1465
+    },
+    "html": {
+      "file count": 1,
+      "line count": 96
+    }
+  },
+  "tti": {
+    "qbk": {
+      "file count": 28,
+      "line count": 3824
+    }
+  },
+  "tuple": {
+    "qbk": {
+      "file count": 3,
+      "line count": 874
+    }
+  },
+  "type_erasure": {
+    "qbk": {
+      "file count": 1,
+      "line count": 552
+    }
+  },
+  "type_index": {
+    "qbk": {
+      "file count": 1,
+      "line count": 517
+    }
+  },
+  "type_traits": {
+    "html": {
+      "file count": 174,
+      "line count": 26790
+    },
+    "qbk": {
+      "file count": 161,
+      "line count": 9492
+    }
+  },
+  "typeof": {
+    "qbk": {
+      "file count": 1,
+      "line count": 884
+    }
+  },
+  "units": {
+    "qbk": {
+      "file count": 1,
+      "line count": 1475
+    }
+  },
+  "unordered": {
+    "adoc": {
+      "file count": 52,
+      "line count": 23299
+    }
+  },
+  "url": {
+    "qbk": {
+      "file count": 32,
+      "line count": 4285
+    },
+    "adoc": {
+      "file count": 21,
+      "line count": 4425
+    },
+    "xml": {
+      "file count": 7,
+      "line count": 7095
+    },
+    "html": {
+      "file count": 2,
+      "line count": 44
+    },
+    "md": {
+      "file count": 1,
+      "line count": 19
+    }
+  },
+  "utility": {
+    "qbk": {
+      "file count": 14,
+      "line count": 5012
+    },
+    "html": {
+      "file count": 1,
+      "line count": 252
+    },
+    "xml": {
+      "file count": 1,
+      "line count": 474
+    }
+  },
+  "uuid": {
+    "adoc": {
+      "file count": 28,
+      "line count": 1999
+    }
+  },
+  "variant": {
+    "xml": {
+      "file count": 21,
+      "line count": 4503
+    }
+  },
+  "variant2": {
+    "adoc": {
+      "file count": 7,
+      "line count": 1642
+    },
+    "html": {
+      "file count": 1,
+      "line count": 6
+    }
+  },
+  "vmd": {
+    "qbk": {
+      "file count": 49,
+      "line count": 5565
+    }
+  },
+  "wave": {
+    "html": {
+      "file count": 19,
+      "line count": 4415
+    }
+  },
+  "winapi": {
+    "qbk": {
+      "file count": 1,
+      "line count": 89
+    }
+  },
+  "xpressive": {
+    "qbk": {
+      "file count": 25,
+      "line count": 3715
+    }
+  },
+  "yap": {
+    "qbk": {
+      "file count": 14,
+      "line count": 1699
+    }
+  }
+}
